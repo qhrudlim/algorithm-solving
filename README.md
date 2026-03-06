@@ -11,13 +11,13 @@ algorithm-solving
 ├ course # 수업 및 실습 문제 (기존 학습 흐름 유지)
 │ └ MMDD_type  # SWEA 문제 (수업 유형 기준)
 │
-├ personal # 개인적으로 풀이하며 유형별로 정리한 문제
+├ personal     # 개인적으로 풀이하며 유형별로 정리한 문제
 │ ├ BOJ
 │ │ └ type
 │ └ SWEA
 │   └ type
 │
-└ study # 스터디에서 풀이한 문제
+└ study        # 스터디에서 풀이한 문제
   └ MMDD
 ```
 

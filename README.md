@@ -8,18 +8,18 @@
 ## Repository Structure
 ```text
 algorithm-solving
-├ study # 스터디에서 풀이한 문제
-│ ├ BOJ
-│ └ SWEA
-│
-├ course # 수업 및 실습 문제
+├ course # 수업 및 실습 문제 (기존 학습 흐름 유지)
 │ └ date_유형
 │
-└ personal # 개인적으로 풀이하며 유형별로 정리한 문제
+├ personal # 개인적으로 풀이하며 유형별로 정리한 문제
+│ ├ BOJ
+│ │ └ 유형
+│ └ SWEA
+│   └ 유형
+│
+└ study # 스터디에서 풀이한 문제
   ├ BOJ
-  │ └ 유형
   └ SWEA
-    └ 유형
 ```
 
 ---

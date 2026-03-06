@@ -13,14 +13,13 @@ algorithm-solving
 │ └ SWEA
 │
 ├ course # 수업 및 실습 문제
-│ ├ date_유형
-│ └ ...
+│ └ date_유형
 │
 └ personal # 개인적으로 풀이하며 유형별로 정리한 문제
   ├ BOJ
-  │ └ ...
+  │ └ 유형
   └ SWEA
-    └ ...
+    └ 유형
 ```
 
 ---

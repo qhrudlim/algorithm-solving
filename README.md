@@ -18,8 +18,9 @@ algorithm-solving
 │   └ 유형
 │
 └ study # 스터디에서 풀이한 문제
-  ├ BOJ
-  └ SWEA
+  └ date
+    ├ BOJ
+    └ SWEA
 ```
 
 ---

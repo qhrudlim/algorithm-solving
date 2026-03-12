@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_in.txt')
+sys.stdin = open('study/0808/20230/sample_in.txt')
 
 '''
 NxN 격자에서 행의 합 + 열의 합 - 현재 셀 값의 최댓값 찾기

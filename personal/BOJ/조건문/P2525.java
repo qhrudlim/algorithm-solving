@@ -1,12 +1,12 @@
-// 두 수 비교하기
-// bronze 5
+// 오븐 시계
+// bronze 3
 
-import java.io.IOException;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class P2525 {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -14,7 +14,14 @@ public class Main {
 
     int A = Integer.parseInt(st.nextToken());
     int B = Integer.parseInt(st.nextToken());
+    
+    int C = Integer.parseInt(br.readLine());
 
-    System.out.println( (A>B) ? ">" : ( (A<B) ? "<" : "==" ) );
+    int M = A * 60 + B + C;
+
+    int hour = (M / 60) % 24;
+    int minute = M % 60;
+
+    System.out.println(hour + " " + minute);
   }
 }

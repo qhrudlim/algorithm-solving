@@ -1,12 +1,12 @@
-// 나머지
+// 두 수 비교하기
 // bronze 5
 
-import java.io.IOException;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class P1330 {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -14,11 +14,7 @@ public class Main {
 
     int A = Integer.parseInt(st.nextToken());
     int B = Integer.parseInt(st.nextToken());
-    int C = Integer.parseInt(st.nextToken());
 
-    System.out.println( (A+B) % C );
-    System.out.println( ((A%C) + (B%C)) % C );
-    System.out.println( (A*B) % C );
-    System.out.println( ((A%C) * (B%C)) % C );
+    System.out.println( (A>B) ? ">" : ( (A<B) ? "<" : "==" ) );
   }
 }
